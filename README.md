@@ -6,7 +6,7 @@ At the same time, database usage is reliable for storing data. It allows forming
 
 ## Instructions about running project
 
-Before starting backend, credentials about the mysql server needs to be inserted to the `credentials.js` file.
+Before starting backend, credentials about the mysql server needs to be inserted to the `website/server/credentials.js` file.
 
 These instructions can be runned from the root directory of repository
 
