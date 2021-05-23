@@ -4,17 +4,21 @@ The Social Cataloging Platform for Books contains various and large amounts of d
 
 At the same time, database usage is reliable for storing data. It allows forming complex queries to manipulate volumes of data in a persistent manner. With the database management system, permission conditions are determined to access data. It can prevent unauthorized access to data, and backup of data is provided due to system crashes or corruption. That's why we use databases in our project to control and access all these interrelated data easily and efficiently.
 
+## Instructions about running project
+
+Before starting backend, credentials about the mysql server needs to be inserted to the `credentials.js` file.
+
+These instructions can be runned from the root directory of repository
+
+| Instruction | Description |
+| - | - |
+| `yarn build` | Install all dependencies for both backend and frontend programs |
+| `yarn start:backend` | Mounts and starts the backend with initial database state (local mysql server required) |
+| `yarn start:frontend` | Starts the frontend of the project | 
+
 ## Team Members
 
-* Ahmet Feyzi Halaç: 21703026
-* Ege Şahin: 21702300
-* Göktuğ Gürbüztürk: 21702383
-* Zeynep Cankara: 21703381
-
-## Project Deliverables
-
-[Project Proposal](https://docs.google.com/document/d/1hq7DRZyj2dp-6nJ6X1iobbfGvHzaPEXvCxdDKfmgFY0/edit?usp=sharing)
-
-## Project Website
-
-- https://zeynepcankara.github.io/Social-Book-Cataloging-Platform/
+* Ahmet Feyzi Halaç
+* Ege Şahin
+* Göktuğ Gürbüztürk
+* Zeynep Cankara
